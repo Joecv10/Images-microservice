@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-model = YOLO("models/best4.pt")
+model = YOLO("models/best-calculo-peso.pt")
 
 
 def inference(image_bytes: bytes) -> list:
